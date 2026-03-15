@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Evalio Logo](frontend/public/evalio-logo.svg)
+![Evalio Logo](frontend/public/evalio-logo-new.jpg)
 
 [![React](https://img.shields.io/badge/React-19-brightgreen)](https://reactjs.org)
 [![Node.js](https://img.shields.io/badge/Node.js-Express-blue)](https://nodejs.org)
@@ -131,13 +131,6 @@ EMAIL_PASS=your-app-password
 - Exams: `/exam/:id`
 - Results: `/results`
 - Materials: `/materials`
-
-## 📚 Screenshots (Add your own!)
-
-<details>
-<summary>Admin Dashboard</summary>
-<img src="screenshots/admin-dashboard.png" alt="Admin Dashboard" />
-</details>
 
 ## 🤝 Contributing
 

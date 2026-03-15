@@ -34,8 +34,13 @@ const Navbar = () => {
             <div className="navbar-container">
                 {/* Logo */}
                 <Link to="/" className="navbar-brand">
-                    <div className="brand-icon">
-                        <BookOpen size={24} />
+                <div className="brand-icon">
+                        <img 
+    src="/evalio-logo-new.jpg" 
+                            alt="Evalio" 
+                            className="logo-img"
+                        />
+                        <BookOpen size={24} className="logo-fallback" style={{display: 'none'}} />
                     </div>
                     <span className="brand-text">Evalio</span>
                 </Link>
@@ -230,8 +235,8 @@ const Navbar = () => {
                 }
 
                 .brand-icon {
-                    width: 42px;
-                    height: 42px;
+                    width: 44px;
+                    height: 44px;
                     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
                     border-radius: 12px;
                     display: flex;
@@ -239,6 +244,20 @@ const Navbar = () => {
                     justify-content: center;
                     color: white;
                     box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+                    position: relative;
+                }
+
+                .logo-img {
+                    width: 36px;
+                    height: 36px;
+                    border-radius: 8px;
+                }
+
+                .logo-fallback {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
                 }
 
                 .brand-text {

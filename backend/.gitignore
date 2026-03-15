@@ -1,0 +1,56 @@
+# Dependencies
+**/node_modules/
+!backend/node_modules/dotenv  # Allow dotenv for runtime
+
+# Environment files
+.env*
+.env.local*
+backend/.env*
+backend/.env.local*
+
+# Production / build
+dist/
+build/
+frontend/dist/
+.next/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+logs/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+*.lcov
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# Uploads - ignore contents, keep .gitkeep for empty dir
+**/uploads/*
+!**/uploads/.gitkeep
+
+# Temporary
+tmp/
+temp/
