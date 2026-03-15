@@ -115,11 +115,6 @@ EMAIL_USER=your-email@gmail.com
 EMAIL_PASS=your-app-password
 ```
 
-### 3. Access
-- Frontend: http://localhost:5173
-- Backend API: http://localhost:5000/api
-- Default login redirects to Teacher Dashboard
-
 ## 🔐 User Roles & Navigation
 
 | Role | Login → Dashboard | Key Pages |
