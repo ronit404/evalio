@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Evalio Logo](frontend/public/evalio-logo-new.jpg)
+![Evalio Logo](frontend/public/evalio-logo-new.jpg =100x100)
 
 [![React](https://img.shields.io/badge/React-19-brightgreen)](https://reactjs.org)
 [![Node.js](https://img.shields.io/badge/Node.js-Express-blue)](https://nodejs.org)
